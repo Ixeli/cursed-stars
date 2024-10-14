@@ -119,7 +119,7 @@ int main(int argc, char** argv) {
 		}
 
 #ifdef SHOW_INFO
-		mvprintw(0, 0, "x=%f, y=%f, z=%f)", camera_pos.x, camera_pos.y, camera_pos.z);
+		mvprintw(0, 0, "x=%f, y=%f, z=%f", camera_pos.x, camera_pos.y, camera_pos.z);
 		mvprintw(1, 0, "%f rad", viewAngle);
 		mvprintw(2, 0, "%d stars visible", pointsCount);
 #endif
