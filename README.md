@@ -17,7 +17,12 @@ After that, the executable ```./cursed-stars``` contains all of the program's in
 ### Configuring
 If you want to mess with the configuration before compiling (such as to modify the keybinds), you can do so by modifying ```src/config.h``` within your favorite editor *before* running ```make```. Each option contains a comment describing what it does.
 
-## Controls
+## Usage
+
+The executable is run like so:
+```./cursed-stars <number of stars>```
+The number of stars is a required argument. A good default value is 1000. Feel free to adjust up or down to your liking, though keep in mind memory usage increases with number of stars.
+
 The default controls (if you don't modify src/config.h) are as follows:
 - w to move forward
 - s to move back
