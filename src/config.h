@@ -30,9 +30,6 @@
 #define SPD_Y	0.05
 #define SPD_Z	0.05
 
-// Uncomment the line below to enable debug mode
-//#define DEBUG
-
 // Uncomment the line below to show coordinates in the top-left corner
 //#define SHOW_INFO
 
